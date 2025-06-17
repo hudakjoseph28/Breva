@@ -125,4 +125,4 @@ Simply upload all files to your hosting provider - no build process required!
 
 ---
 
-*Built with ❤️ for the future of addiction recovery technology* 
+*Built with ❤️ for the future of addiction recovery technology*
