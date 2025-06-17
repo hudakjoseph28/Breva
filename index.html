@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breva Health - Smart Addiction Recovery Technology</title>
+    
+    <!-- Styles and Fonts -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ==========================================
+         NAVIGATION BAR
+         Fixed header with brand and navigation links
+    ========================================== -->
+    <nav class="site-nav">
+        <div class="container">
+            <a href="#" class="logo">Breva</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#system">The System</a></li>
+            </ul>
+            <a href="#contact" class="btn-nav">Get Started</a>
+        </div>
+    </nav>
+
+    <!-- ==========================================
+         HERO SECTION
+         Main landing area with animated logo and mission statement
+    ========================================== -->
+    <section class="hero" id="home">
+        <!-- Animated gradient background -->
+        <div class="hero-bg-gradient"></div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <!-- Animated Breva logo with spin effect -->
+                <div class="logo-minimal">
+                    <div class="breva-logo">
+                        <span class="logo-text">B</span>
+                    </div>
+                </div>
+                
+                <!-- Main heading with gradient text effects -->
+                <h1 class="title">
+                    <span>Our Mission</span>
+                    <span>at Breva</span>
+                </h1>
+                
+                <!-- Mission statement -->
+                <p class="subtitle">Providing an intuitive, enjoyable, and effective way to quit vaping, unlike anything else on the market.</p>
+                
+                <!-- Key value propositions -->
+                <div class="hero-sub">
+                    <span class="staggered-text" data-index="0">Smart technology.</span>
+                    <span class="staggered-text" data-index="1">Real support.</span>
+                    <span class="staggered-text" data-index="2">Lasting change.</span>
+                </div>
+                
+                <!-- Statistics showcase -->
+                <div class="stats-row">
+                    <div class="stat-counter">
+                        <div class="stat-icon">🎯</div>
+                        <div class="stat-value">21M+</div>
+                        <div class="stat-label">High schoolers vaping</div>
+                    </div>
+                    <div class="stat-counter">
+                        <div class="stat-icon">📈</div>
+                        <div class="stat-value">90%</div>
+                        <div class="stat-label">Success rate</div>
+                    </div>
+                    <div class="stat-counter">
+                        <div class="stat-icon">💡</div>
+                        <div class="stat-value">AI</div>
+                        <div class="stat-label">Technology</div>
+                    </div>
+                </div>
+                
+                <!-- Call-to-action button -->
+                <a href="#contact" class="btn-primary">
+                    Join Our Mission
+                    <div class="glow-trail"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         HOW IT WORKS SECTION
+         Interactive presentation of the 3-step process
+    ========================================== -->
+    <section class="how-it-works-section glass-panel" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">Three simple steps to break the habit cycle</p>
+            
+            <!-- Three-step process with staggered animations -->
+            <div class="how-it-works-grid">
+                <div class="how-it-works-block slide-from-left" data-step="1">
+                    <div class="block-number">01</div>
+                    <div class="block-icon detection-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z" fill="currentColor"/>
+                            <circle cx="12" cy="12" r="3" fill="currentColor" opacity="0.6"/>
+                            <path d="M21 12C21 16.97 16.97 21 12 21S3 16.97 3 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+                        </svg>
+                    </div>
+                    <div class="block-content">
+                        <h3>Detection</h3>
+                        <p>The wearable device detects vape usage in real time using advanced sensors and AI algorithms.</p>
+                    </div>
+                    <div class="block-glow"></div>
+                </div>
+                
+                <div class="how-it-works-block slide-from-bottom" data-step="2">
+                    <div class="block-number">02</div>
+                    <div class="block-icon interruption-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM12 6c.55 0 1 .45 1 1v6c0 .55-.45 1-1 1s-1-.45-1-1V7c0-.55.45-1 1-1zm1 10h-2v-2h2v2z" fill="currentColor"/>
+                            <path d="M12 8v4M12 16h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+                        </svg>
+                    </div>
+                    <div class="block-content">
+                        <h3>Interruption</h3>
+                        <p>It sends subtle feedback through gentle vibrations to break the automatic habit loop at the crucial moment.</p>
+                    </div>
+                    <div class="block-glow"></div>
+                </div>
+                
+                <div class="how-it-works-block slide-from-right" data-step="3">
+                    <div class="block-number">03</div>
+                    <div class="block-icon support-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M7 9h10M7 13h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="17" cy="17" r="3" fill="currentColor" opacity="0.6"/>
+                            <path d="M16 17l1 1 2-2" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="block-content">
+                        <h3>Support</h3>
+                        <p>The mobile app provides personalized insights, progress tracking, and continuous support for your journey.</p>
+                    </div>
+                    <div class="block-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         ABOUT SECTION
+         Company story and founder introductions
+    ========================================== -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">Conviction. Innovation. Purpose.</h2>
+            
+            <div class="about-content">
+                <p class="about-text">
+                    David and Connor first teamed up not in a lab or boardroom, but over a shared frustration: watching friends struggle to quit vaping with tools that felt impersonal, ineffective, and outdated. One was a relentless builder, the other a strategic thinker—and both were obsessed with solving problems that actually mattered.
+                </p>
+                
+                <p class="about-text">
+                    Breva was born out of that obsession. David brings a background in engineering and design, constantly pushing the limits of what small devices can do. Connor's foundation in business and data allows him to see the bigger picture—and where the real impact lies. Together, they created Breva: a platform that merges AI, behavioral insights, and intuitive hardware to empower people to quit, on their terms.
+                </p>
+                
+                <p class="about-text">
+                    We don't just build tools. We build accountability. We build futures. And we do it with the same intensity we'd want if this were made for us—because it was.
+                </p>
+            </div>
+            
+            <!-- Founder profiles with LinkedIn integration -->
+            <div class="founders-section">
+                <h3 class="section-label">Meet the Founders</h3>
+                <div class="founders-row">
+                    <div class="founder-card">
+                        <div class="founder-avatar">
+                            <div class="avatar-circle cb">CB</div>
+                        </div>
+                        <div class="founder-info">
+                            <h3>Connor Bush</h3>
+                            <p>Co-Founder & CEO</p>
+                            <a href="https://www.linkedin.com/in/connor-bush-210113314/" target="_blank" class="linkedin-founder-link">
+                                <svg viewBox="0 0 24 24" width="18" height="18">
+                                    <path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="founder-card">
+                        <div class="founder-avatar">
+                            <div class="avatar-circle ds">DS</div>
+                        </div>
+                        <div class="founder-info">
+                            <h3>David Stalder</h3>
+                            <p>Co-Founder & CTO</p>
+                            <a href="https://www.linkedin.com/in/david-stalder-228029368/" target="_blank" class="linkedin-founder-link">
+                                <svg viewBox="0 0 24 24" width="18" height="18">
+                                    <path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         TIMELINE SECTION
+         Interactive company roadmap with SVG animations
+    ========================================== -->
+    <section class="timeline-section" id="timeline">
+        <div class="container">
+            <h2 class="section-title">Gameplan:</h2>
+            
+            <div class="timeline-web">
+                <svg class="timeline-connections" viewBox="0 0 1200 600">
+                    <!-- Connection lines -->
+                    <defs>
+                        <linearGradient id="connectionGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:var(--primary);stop-opacity:0.3" />
+                            <stop offset="50%" style="stop-color:var(--blue);stop-opacity:0.6" />
+                            <stop offset="100%" style="stop-color:var(--primary);stop-opacity:0.3" />
+                        </linearGradient>
+                        <filter id="glow">
+                            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                            <feMerge> 
+                                <feMergeNode in="coloredBlur"/>
+                                <feMergeNode in="SourceGraphic"/>
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    
+                    <!-- Sequential web connections through all nodes -->
+                    <path class="connection-path main-timeline" 
+                          d="M120,300 Q200,150 360,120 Q450,100 600,480 Q650,520 840,150 Q870,130 900,390 Q980,350 1080,120" 
+                          stroke="url(#connectionGradient)" stroke-width="3" fill="none" filter="url(#glow)"/>
+                    
+                    <!-- Supporting web connections -->
+                    <path class="connection-path" 
+                          d="M120,300 Q400,200 600,480 Q800,250 1080,120" 
+                          stroke="url(#connectionGradient)" stroke-width="1.5" fill="none" filter="url(#glow)" opacity="0.3"/>
+                    
+                    <path class="connection-path" 
+                          d="M360,120 Q500,350 840,150 Q950,200 1080,120" 
+                          stroke="url(#connectionGradient)" stroke-width="1" fill="none" filter="url(#glow)" opacity="0.2"/>
+                </svg>
+                
+                <div class="timeline-web-container">
+                    <div class="timeline-node" data-year="1963" style="--x: 10%; --y: 50%;">
+                        <div class="node-circle">
+                            <span class="node-year">1963</span>
+                        </div>
+                        <div class="node-content">
+                            <h3>Peak Cigarette Usage</h3>
+                            <p>Peak consumption leads to rapid growth in the quitting market</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-node" data-year="1984" style="--x: 30%; --y: 20%;">
+                        <div class="node-circle">
+                            <span class="node-year">1984</span>
+                        </div>
+                        <div class="node-content">
+                            <h3>Nicorette Gum</h3>
+                            <p>Programs demonizing nicotine products lead to growth in quitting market</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-node" data-year="1999" style="--x: 50%; --y: 80%;">
+                        <div class="node-circle">
+                            <span class="node-year">1999</span>
+                        </div>
+                        <div class="node-content">
+                            <h3>Truth Initiative Started</h3>
+                            <p>Shift in public perception of cigarettes leads to alternatives</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-node" data-year="2007" style="--x: 70%; --y: 25%;">
+                        <div class="node-circle">
+                            <span class="node-year">2007</span>
+                        </div>
+                        <div class="node-content">
+                            <h3>First Vapes on US Market</h3>
+                            <p>Vaping rapidly growing, slow but steady increase in negative perception</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-node" data-year="2014" style="--x: 75%; --y: 65%;">
+                        <div class="node-circle">
+                            <span class="node-year">2014</span>
+                        </div>
+                        <div class="node-content">
+                            <h3>First Nicotine Pouches on US Market</h3>
+                            <p>Shift from demonizing cigarette to nicotine products as a whole</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-node breva-node" data-year="2025" style="--x: 90%; --y: 10%;">
+                        <div class="node-circle breva-circle">
+                            <div class="breva-mini-logo">
+                                <span class="logo-text">B</span>
+                            </div>
+                            <span class="node-year">2025</span>
+                        </div>
+                        <div class="node-content breva-content">
+                            <h3>Breva</h3>
+                            <p>Smart technology meets addiction recovery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section" id="team">
+        <div class="container">
+            <h2 class="section-title">Our Team</h2>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="images/connor-bush.jpg" alt="Connor Bush">
+                        <div class="linkedin-link">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Connor Bush</h3>
+                        <p class="member-bio">Relentless progress isn't about perfection; it's about learning, adapting, and never standing still.</p>
+                        <p class="member-description">I've worked across a range of early-stage projects, from tech-enabled products to emerging consumer goods, where I gained hands-on experience in everything from brand development to basic hardware and software integration. Those experiences showed me how powerful a clear vision, a sharp message, and the right product strategy can be in creating real change.</p>
+                        <p class="member-description">Now, alongside my partner, I've co-founded Breva, a brand built to challenge the norms of addiction and redefine what it means to quit. Our mission is bold: we're not offering just another alternative to nicotine. We're working to eliminate the needs for it entirely.</p>
+                        <p class="member-description">At the core of Breva is a belief in brand-led disruption: combining behavior-first design, strong cultural messaging, and real user impact to move beyond harm reduction and into meaningful change. We're here to do more than sell a product—we're building a movement.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="images/david-stalder.jpg" alt="David Stalder">
+                        <div class="linkedin-link">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>David Stalder</h3>
+                        <p class="member-bio">Every bug is a blueprint. Every obstacle is a feature waiting to be built better. Never be content.</p>
+                        <p class="member-description">For as long as I remember, I've always been obsessed with creating. From a young age I started playing guitar and piano, things I feel have taught me one of the most important skills: improvisation. Why wait to learn how to do something when you can learn by doing it?</p>
+                        <p class="member-description">Following this as my guiding principle I have been creating non stop from a young age. In 8th grade I became obsessed with computers, electronics, and software, interests that have followed me throughout my entire life. I learned how to repair and modify gameboys, developed custom software for them, and developed multiple image recognition AI models. All of these are things that I would have never conceptualized myself being able to do, but I learned along the way.</p>
+                        <p class="member-description">Breva, for me, is the culmination of all my long interests, as well as something that can change the world. I have seen firsthand the struggle of nicotine addiction and feel that together with my partner we can provide people who are in the dark, a light.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         BLOG SECTION
+         Latest company updates and news
+    ========================================== -->
+    <section class="blog-section" id="blog">
+        <div class="container">
+            <h2 class="section-title">Latest Updates</h2>
+            
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-date">6/4/25</div>
+                    <h3>Routing the Map</h3>
+                    <p>Our simple yet innovative plan to building the next big thing.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-date">5/31/25</div>
+                    <h3>Rapid Progress</h3>
+                    <p>We have been hard at work prototyping and proving the efficacy of our idea.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         THE SYSTEM SECTION
+         Business model and solution details with accordion
+    ========================================== -->
+    <section class="system-section" id="system">
+        <div class="container">
+            <h2 class="section-title">The Model</h2>
+            
+            <div class="system-content">
+                <div class="problem-section">
+                    <h3>Problem</h3>
+                    <p>Vaping has rapidly become the dominant form of nicotine addiction among teens and young adults, with over 21 million U.S. high schoolers reporting regular use. Despite this, there are very few tools designed specifically to help people quit vaping, most are either outdated (like nicotine patches or hotlines), poorly designed for this audience, or focused only on tracking usage without offering support or accountability.</p>
+                    
+                    <div class="current-solutions">
+                        <h4>Current solutions:</h4>
+                        <ul>
+                            <li><strong>Fail</strong> to deliver real-time feedback</li>
+                            <li><strong>Lack</strong> personalization</li>
+                            <li><strong>Don't</strong> address the behavioral loop that fuels relapse</li>
+                            <li><strong>Ignore</strong> the role of social reinforcement and gamification in addiction</li>
+                        </ul>
+                        
+                        <p>Users often feel <strong>alone, unsupported,</strong> and <strong>frustrated</strong> when trying to quit, resulting in high relapse rates and continued harm to both physical and mental health.</p>
+                    </div>
+                </div>
+                
+                <div class="solution-accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">Solution <span class="accordion-icon">+</span></button>
+                        <div class="accordion-content">
+                            <p>Our comprehensive smart device and app ecosystem that provides real-time detection, personalized support, and community-driven accountability.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header">Target Market <span class="accordion-icon">+</span></button>
+                        <div class="accordion-content">
+                            <p>Primary: 18-25 year olds who vape regularly and want to quit. Secondary: Parents, healthcare providers, and educational institutions.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header">Personas <span class="accordion-icon">+</span></button>
+                        <div class="accordion-content">
+                            <p>College students, young professionals, and health-conscious individuals seeking modern, tech-enabled solutions to break their vaping habits.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header">Revenue Streams <span class="accordion-icon">+</span></button>
+                        <div class="accordion-content">
+                            <p>Hardware sales, subscription app features, partnerships with healthcare providers, and data insights for public health research.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header">Customer Journey Channels <span class="accordion-icon">+</span></button>
+                        <div class="accordion-content">
+                            <p>Social media marketing, healthcare partnerships, university wellness programs, and word-of-mouth referrals.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header">Key Activities <span class="accordion-icon">+</span></button>
+                        <div class="accordion-content">
+                            <p>R&D, device manufacturing, app development, clinical studies, partnerships, and community building.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header">Scalability & Roadmap <span class="accordion-icon">+</span></button>
+                        <div class="accordion-content">
+                            <p>Phase 1: Vaping cessation device. Phase 2: Expand to other addictive behaviors. Phase 3: Comprehensive behavioral health platform.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cta-section">
+                    <a href="#contact" class="btn-primary">Make it</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         CONTACT SECTION
+         Enhanced mailing list form with glassmorphism design
+    ========================================== -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact us.</h2>
+            
+            <div class="contact-intro">
+                <p>If you care about public health, mental wellness, or behavior change—let's connect.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-col">
+                    <h3 class="contact-subtitle">Get In Touch</h3>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                            <span>Interested in our product? Want to learn more about our company and our goals? Want to just talk to us? Sign up for our email list. This will keep you up to date on all of our actions.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Premium mailing list form with floating labels and validation -->
+            <div class="mailing-list">
+                <div class="form-header">
+                    <h3>Join Our Mailing List</h3>
+                    <p>Sign up with your email address to receive news and updates about the future of Breva.</p>
+                </div>
+                
+                <form class="email-form" action="https://formspree.io/f/xkgnqbko" method="POST" novalidate>
+                    <!-- Formspree configuration -->
+                    <input type="hidden" name="_subject" value="New Breva Health Mailing List Signup">
+                    <input type="hidden" name="_replyto" value="">
+                    <input type="hidden" name="_next" value="">
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <div class="form-container">
+                        <div class="email-inputs">
+                            <div class="input-group">
+                                <label class="floating-label">First Name</label>
+                                <input type="text" name="firstName" placeholder="First Name" required>
+                                <div class="input-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <label class="floating-label">Last Name</label>
+                                <input type="text" name="lastName" placeholder="Last Name" required>
+                                <div class="input-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label class="floating-label">Email Address</label>
+                            <input type="email" name="email" placeholder="Email Address" required>
+                            <div class="input-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label class="floating-label">Message (optional)</label>
+                            <textarea name="message" placeholder="Tell us about your goals..." rows="4"></textarea>
+                            <div class="input-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4v3c0 .6.4 1 1 1 .2 0 .5-.1.7-.3L14.6 18H20c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">
+                            <span class="btn-text">Send</span>
+                            <span class="btn-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                                </svg>
+                            </span>
+                            <span class="btn-success">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                </svg>
+                            </span>
+                            <div class="btn-glow"></div>
+                        </button>
+                        
+                        <div class="privacy-notice">
+                            <svg class="privacy-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z"/>
+                            </svg>
+                            <span>We value your privacy. No spam, ever. Just updates about Breva's mission.</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         FLOATING NAVIGATION
+         Mobile-friendly circular navigation with smooth animations
+    ========================================== -->
+    <div class="floating-nav">
+        <button class="floating-nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="nav-logo-text">B</span>
+        </button>
+        <div class="floating-nav-menu">
+            <div class="nav-item" data-section="home">
+                <svg class="mini-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z"/>
+                    <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V20.25a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z"/>
+                </svg>
+                <span>Home</span>
+            </div>
+            <div class="nav-item" data-section="about">
+                <svg class="mini-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 01.67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 11-.671-1.34l.041-.022zM12 9a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd"/>
+                </svg>
+                <span>About</span>
+            </div>
+            <div class="nav-item" data-section="team">
+                <svg class="mini-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" d="M8.25 6.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0zM15.75 9.75a3 3 0 116 0 3 3 0 01-6 0zM2.25 9.75a3 3 0 116 0 3 3 0 01-6 0zM6.31 15.117A6.745 6.745 0 0112 12a6.745 6.745 0 016.709 7.498.75.75 0 01-.372.568A12.696 12.696 0 0112 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 01-.372-.568 6.787 6.787 0 011.019-4.38z"/>
+                    <path d="M5.082 14.254a8.287 8.287 0 00-1.308 5.135 9.687 9.687 0 01-1.764-.44l-.115-.04a.563.563 0 01-.373-.487l-.01-.121a3.75 3.75 0 013.57-4.047zM20.226 19.389a8.287 8.287 0 00-1.308-5.135 3.75 3.75 0 013.57 4.047l-.01.121a.563.563 0 01-.373.487l-.115.04c-.567.2-1.156.349-1.764.44z"/>
+                </svg>
+                <span>Team</span>
+            </div>
+            <div class="nav-item" data-section="system">
+                <svg class="mini-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" d="M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm4.5 7.5a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0v-2.25a.75.75 0 01.75-.75zm3.75-1.5a.75.75 0 00-1.5 0v4.5a.75.75 0 001.5 0V12zm3.75-1.5a.75.75 0 01.75.75v3.75a.75.75 0 01-1.5 0V10.5a.75.75 0 01.75-.75zm3.75-1.5a.75.75 0 00-1.5 0v6a.75.75 0 001.5 0V9z" clip-rule="evenodd"/>
+                </svg>
+                <span>The System</span>
+            </div>
+            <div class="nav-item" data-section="contact">
+                <svg class="mini-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"/>
+                    <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"/>
+                </svg>
+                <span>Contact</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript for interactions and animations -->
+    <script src="script.js?v=6"></script>
+</body>
+</html> 
